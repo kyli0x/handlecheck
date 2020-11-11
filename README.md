@@ -25,7 +25,7 @@ cd handlecheck/
 python3 handlecheck.py
 ```
 ## Requirements
-You will need to intall `ipcalc` if Kurcoder will not run
+You will need to intall `yaml` if Handlecheck will not run.
 ```
 $ pip3 install yaml
 ```
