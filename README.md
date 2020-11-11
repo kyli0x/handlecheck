@@ -8,6 +8,7 @@ A simple username checker for many popular sites.
 ### Available websites to check:
 - Github
 - Instagram
+- Minecraft
 - Medium
 - Pastebin
 - Reddit

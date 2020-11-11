@@ -27,6 +27,10 @@ def medium(handle):
     url = 'https://medium.com/@' + handle
     return checker(url)
 
+def minecraft(handle):
+    url = 'https://www.mc-heads.net/minecraft/profile/' + handle
+    return checker(url)
+
 def pastebin(handle):
     url = 'https://pastebin.com/u/' + handle
     return checker(url)
@@ -74,6 +78,7 @@ def main():
         print(W+'Github:    '+C+'' + (''+P+'Unavailable' if github(username) else ''+P+'Available'))
         print(W+'Instagram: '+C+'' + (''+P+'Unavailable' if instagram(username) else ''+P+'Available'))
         print(W+'Medium:    '+C+'' + (''+P+'Unavailable' if medium(username) else ''+P+'Available'))
+        print(W+'Minecraft: '+C+'' + (''+P+'Unavailable' if minecraft(username) else ''+P+'Available'))
         print(W+'Pastebin:  '+C+'' + (''+P+'Unavailable' if pastebin(username) else ''+P+'Available'))
         print(W+'Reddit:    '+C+'' + (''+P+'Unavailable' if reddit(username) else ''+P+'Available'))
         print(W+'TryHackMe: '+C+'' + (''+P+'Unavailable' if tryhackme(username) else ''+P+'Available'))
