@@ -36,7 +36,7 @@ def pastebin(handle):
     return checker(url)
 
 def reddit(handle):
-    url = 'https://reddit.com/r/' + handle
+    url = 'https://reddit.com/user/' + handle
     return checker(url)
 
 def tryhackme(handle):
@@ -74,7 +74,7 @@ def main():
     if username == 'exit':
         exit()
     else:
-        print('\n')
+        print('')
         print(W+'Github:    '+C+'' + (''+P+'Unavailable' if github(username) else ''+P+'Available'))
         print(W+'Instagram: '+C+'' + (''+P+'Unavailable' if instagram(username) else ''+P+'Available'))
         print(W+'Medium:    '+C+'' + (''+P+'Unavailable' if medium(username) else ''+P+'Available'))
