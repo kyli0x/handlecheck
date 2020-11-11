@@ -25,7 +25,7 @@ def checker():
             if r.status_code == 200:
                 print(C+'Unavailable for: '+W+'' + url)
             else:
-                print(C+'Available for:   '+W+'' + url)
+                print(P+'Available for:   '+W+'' + url)
         main()
 
 
