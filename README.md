@@ -2,7 +2,7 @@
 A simple username checker for many popular sites.
 
 <p align="center">
-    <img src="https://github.com/kyli0x/handlecheck/blob/main/handlecheck.png">
+    <img src="https://github.com/kyli0x/handlecheck/blob/main/screenhandlecheck.png">
 </p>
 
 ### Available websites to check:

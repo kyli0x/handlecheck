@@ -10,7 +10,7 @@ C  = '\033[1;36m' # cyan
 username = ''
 
 def checker(url):
-    r = requests.get(url)
+    r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
     if r.status_code == 200:
         return True
     return False
@@ -61,9 +61,23 @@ def banner():
         raise ValueError('Error')
     except Exception:
         os.system('clear')
-    print ('')
-    print (C+'  Welcome to Handlecheck')
-    print ('')
+    print (C+'')
+    print ('  ██░ ██  ▄▄▄       ███▄    █ ▓█████▄  ██▓    ▓█████ ')
+    print (' ▓██░ ██▒▒████▄     ██ ▀█   █ ▒██▀ ██▌▓██▒    ▓█   ▀ ')
+    print (' ▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒░██   █▌▒██░    ▒███   ')
+    print (' ░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒░▓█▄   ▌▒██░    ▒▓█  ▄ ')
+    print (' ░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░░▒████▓ ░██████▒░▒████▒')
+    print ('  ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒  ▒▒▓  ▒ ░ ▒░▓  ░░░ ▒░ ░')
+    print ('  ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ ░ ▒  ▒ ░ ░ ▒  ░ ░ ░  ░')
+    print ('  ░  ░  ▄████▄ ░ ██░ ██ ▓█████  ▄████▄   ██ ▄█▀ ')
+    print ('       ▒██▀ ▀█  ▓██░ ██▒▓█   ▀ ▒██▀ ▀█   ██▄█▒ ')      
+    print ('       ▒▓█    ▄ ▒██▀▀██░▒███   ▒▓█    ▄ ▓███▄░ ')      
+    print ('       ▒▓▓▄ ▄██▒░▓█ ░██ ▒▓█  ▄ ▒▓▓▄ ▄██▒▓██ █▄ ')      
+    print ('       ▒ ▓███▀ ░░▓█▒░██▓░▒████▒▒ ▓███▀ ░▒██▒ █▄ ')     
+    print ('       ░ ░▒ ▒  ░ ▒ ░░▒░▒░░ ▒░ ░░ ░▒ ▒  ░▒ ▒▒ ▓▒  ')    
+    print ('         ░  ▒    ▒ ░▒░ ░ ░ ░  ░  ░  ▒   ░ ░▒ ▒░ ')     
+    print ('                 ░  ░░ ░   ░            ░  ░ ░ ')      
+    print ('                     ░                     ░   ')        
     print (C+' '+C+' Created by: Kyli0x')
     print (P+'  GitHub: ['+C+'kyli0x'+P+']')
     print (P+'  Insta:  ['+C+'kyli0x'+P+']')
