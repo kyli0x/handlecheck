@@ -24,5 +24,10 @@ git clone https://github.com/kyli0x/handlecheck.git
 cd handlecheck/
 python3 handlecheck.py
 ```
+## Requirements
+You will need to intall `ipcalc` if Kurcoder will not run
+```
+$ pip3 install yaml
+```
 
 ### More websites will be added soon!
