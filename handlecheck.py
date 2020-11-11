@@ -21,7 +21,7 @@ def checker():
         weblinks = ["{}{}".format(i,handle) for i in links]
 
         for url in weblinks:
-            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'})
             if r.status_code == 200:
                 print(C+'Unavailable for: '+W+'' + url)
             else:
