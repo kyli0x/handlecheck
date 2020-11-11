@@ -7,11 +7,15 @@ A simple username checker for many popular sites.
 
 ### Available websites to check:
 - Github
+- Hackerone
 - Instagram
-- Minecraft
 - Medium
+- Minecraft
 - Pastebin
+- Quora
 - Reddit
+- Soundcloud
+- Sourceforge
 - TryHackMe
 - Twitch
 - Twitter
