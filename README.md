@@ -33,5 +33,9 @@ You will need to intall `yaml` if Handlecheck will not run.
 ```
 $ pip3 install yaml
 ```
+or with Arch
+```
+$ sudo pacman -S python-yaml
+```
 
 ### More websites will be added soon!
